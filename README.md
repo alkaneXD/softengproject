@@ -6,8 +6,9 @@
 This system is built using Twitter Bootstrap.
 
 #Installation of the database
-create database sapangmaragul;
-use sapangmaragul;
+create database sapangmaragul;  
+use sapangmaragul;  
+  
 CREATE TABLE users (  
     	ID int(11) NOT NULL AUTO_INCREMENT,  
     	FName varchar(50) NOT NULL,  
