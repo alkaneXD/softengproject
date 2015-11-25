@@ -1,0 +1,37 @@
+.jumbotron 
+{
+  background: url('/img.png') no-repeat center center;
+  background-position: center center;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+ 
+.imagegrid ul, .imagegrid li 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+.imagegrid li 
+{
+  width: 30%;
+  min-width: 60px;
+  max-width: 100px;
+  float: left;
+}
+ 
+.imagegrid li img 
+{
+  width: 100%;
+  padding: 3%;
+  -webkit-border-radius: 12px;
+  border-radius: 10px;
+}
