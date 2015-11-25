@@ -9,7 +9,7 @@ This system is built using Twitter Bootstrap.
 ```create database sapangmaragul;  
 use sapangmaragul;  ```
   
-```CREATE TABLE users (  
+`CREATE TABLE users (  
     	ID int(11) NOT NULL AUTO_INCREMENT,  
     	FName varchar(50) NOT NULL,  
 	    MName varchar(50) NOT NULL,  
@@ -22,4 +22,5 @@ use sapangmaragul;  ```
 	    Purpose varchar(50) NOT NULL,  
 	    Dateadd varchar(50) NOT NULL,  
     	PRIMARY KEY (ID)  
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11;```
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11;  
+`
