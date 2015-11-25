@@ -6,7 +6,7 @@
 This system is built using Twitter Bootstrap.
 
 #Installation of the database
-<code>
+
 create database sapangmaragul;  
 use sapangmaragul; 
   
