@@ -8,7 +8,7 @@ This system is built using Twitter Bootstrap.
 #Installation of the database
 <code>
 create database sapangmaragul;  
- use sapangmaragul; 
+use sapangmaragul; 
   
 CREATE TABLE users (  
     	ID int(11) NOT NULL AUTO_INCREMENT,  
@@ -23,6 +23,4 @@ CREATE TABLE users (
 	    Purpose varchar(50) NOT NULL,  
 	    Dateadd varchar(50) NOT NULL,  
     	PRIMARY KEY (ID)  
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11;  
-
-</code>
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11;
